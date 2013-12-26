@@ -9,7 +9,7 @@ RUN apt-get -y install git
 RUN apt-get -y install npm
 RUN apt-get -y install nodejs
 
-RUN git clone https://github.com/adobe/brackets.git
+RUN git clone https://github.com/cameronboehmer/brackets.git
 
 WORKDIR brackets
 RUN git checkout in-browser
